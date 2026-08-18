@@ -1,4 +1,5 @@
 ﻿using OOP_Session01;
+using System.Data.SqlTypes;
 
 namespace OOPSession01
 {
@@ -38,6 +39,17 @@ namespace OOPSession01
             //If `Customer` is a class, it is a reference type. When we copy it to another variable,
             //we copy the reference, not the actual object. This means both variables point to the same object,
             //so modifying one variable will also affect the original object
+            #endregion
+
+            #region Question2
+            //shipment shipment1=new shipment();
+            //shipment1.setDescribtion("this is a shipment");
+            //shipment1.setWeight(1); 
+            //shipment1.setDeliveryFee(10);
+
+            //Console.WriteLine(shipment1.getDescribtion());
+            //Console.WriteLine(shipment1.getWeight());
+            //Console.WriteLine(shipment1.getDeliveryFee());
             #endregion
 
         }
